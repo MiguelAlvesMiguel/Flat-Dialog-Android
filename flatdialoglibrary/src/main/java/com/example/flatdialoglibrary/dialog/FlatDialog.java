@@ -70,9 +70,9 @@ public class FlatDialog extends Dialog {
         setSecondTextFieldBorderColor(Color.parseColor("#FFFFFF"));
         setTitleColor(Color.parseColor("#FFFFFF"));
         setSubtitleColor(Color.parseColor("#FFFFFF"));
-        setFirstButtonColor(Color.parseColor("#8A56AC"));
-        setSecondButtonColor(Color.parseColor("#D47FA6"));
-        setThirdButtonColor(Color.parseColor("#998FA2"));
+        setFirstButtonColor(Color.parseColor("#45ACFC"));
+        setSecondButtonColor(Color.parseColor("#45ACFC"));
+        setThirdButtonColor(Color.parseColor("#45ACFC"));
         setBackgroundColor(Color.parseColor("#241332"));
         first_edit_text.setVisibility(View.GONE);
         second_edit_text.setVisibility(View.GONE);
