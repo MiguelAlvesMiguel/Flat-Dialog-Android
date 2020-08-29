@@ -83,7 +83,8 @@ public class FlatDialog extends Dialog {
         second_button.setVisibility(View.GONE);
         title.setVisibility(View.GONE);
         subtitle.setVisibility(View.GONE);
-
+        setFirstTextFieldTransformationMethod(PasswordTransformationMethod.getInstance());
+        setSecondTextFieldTransformationMethod(PasswordTransformationMethod.getInstance());
     }
     
     public FlatDialog setFirstTextFieldTransformationMethod(TransformationMethod method) {
