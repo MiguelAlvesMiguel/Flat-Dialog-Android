@@ -13,6 +13,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.text.method.PasswordTransformationMethod;
 
 import com.example.flatdialoglibrary.R;
 
@@ -84,7 +85,17 @@ public class FlatDialog extends Dialog {
         subtitle.setVisibility(View.GONE);
 
     }
-
+    
+    public FlatDialog setFirstTextFieldTransformationMethod(TransformationMethod method) {
+        first_edit_text.setTransformationMethod(method);
+        return this;
+    }
+    
+     public FlatDialog setSecondTextFieldTransformationMethod(TransformationMethod method) {
+        second_edit_text.setTransformationMethod(method);
+        return this;
+    }
+    
     public FlatDialog isCancelable(boolean cancelable){
         this.setCancelable(cancelable);
         return this;
