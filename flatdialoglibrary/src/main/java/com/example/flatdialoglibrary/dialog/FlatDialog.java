@@ -13,7 +13,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.text.method.PasswordTransformationMethod;
+import android.text.method.TransformationMethod;
 
 import com.example.flatdialoglibrary.R;
 
