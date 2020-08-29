@@ -14,6 +14,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.text.method.TransformationMethod;
+import android.text.method.PasswordTransformationMethod;
 
 import com.example.flatdialoglibrary.R;
 
